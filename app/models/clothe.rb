@@ -1,3 +1,3 @@
-class Clothes < ActiveRecord::Base
+class Clothe < ActiveRecord::Base
   has_many :outfits, through: :outfit_clothes
 end
